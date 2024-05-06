@@ -10,4 +10,10 @@ public class Tarefa {
 	public String getDescricao() {
 		return descricao;
 	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Tarefa{" + "descricao='" + descricao + "\'" + '}';
+	}
 }
